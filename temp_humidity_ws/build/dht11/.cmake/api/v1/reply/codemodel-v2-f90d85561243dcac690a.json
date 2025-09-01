@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fe6bcc7babf5196f9eec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dht11",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dht11_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dht11_uninstall-165b84f89b5a1660bd82.json",
+					"name" : "dht11_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dht_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dht_pub-a94099bc8655185c6709.json",
+					"name" : "dht_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humid_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humid_sub-16266538ef0d1c953713.json",
+					"name" : "humid_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp_sub-e498906c9acd5798efdd.json",
+					"name" : "temp_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-31cade756954affea590.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/elton/temp_humidity_ws/build/dht11",
+		"source" : "/home/elton/temp_humidity_ws/src/dht11"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

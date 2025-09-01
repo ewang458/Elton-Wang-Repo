@@ -1,0 +1,16 @@
+[0.010s] Invoking command in '/home/elton/temp_humidity_ws/build/dht11': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elton/temp_humidity_ws/build/dht11 -- -j22 -l22
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/dht_pub.dir/src/dht_pub.cpp.o[0m
+[0.070s] [ 66%] Built target humid_sub
+[0.070s] [ 83%] Built target temp_sub
+[1.259s] [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:[m[K In member function ‘[01m[Kvoid DhtSerialPublisher::[01;32m[Khandle_line[m[K(const std::string&)[m[K’:
+[1.260s] [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:96:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[1.260s]    96 |   float humidity = std::stof([01;31m[Kh[m[K);
+[1.260s]       |                              [01;31m[K^[m[K
+[1.263s] [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:97:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.263s]    97 |   float temperature = std::stof([01;31m[Kt[m[K);
+[1.263s]       |                                 [01;31m[K^[m[K
+[1.263s]       |                                 [32m[Ktm[m[K
+[1.849s] gmake[2]: *** [CMakeFiles/dht_pub.dir/build.make:76: CMakeFiles/dht_pub.dir/src/dht_pub.cpp.o] Error 1
+[1.849s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/dht_pub.dir/all] Error 2
+[1.850s] gmake: *** [Makefile:146: all] Error 2
+[1.854s] Invoked command in '/home/elton/temp_humidity_ws/build/dht11' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elton/temp_humidity_ws/build/dht11 -- -j22 -l22

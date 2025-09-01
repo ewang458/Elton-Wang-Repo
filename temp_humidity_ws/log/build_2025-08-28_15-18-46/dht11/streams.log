@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/elton/temp_humidity_ws/build/dht11': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elton/temp_humidity_ws/build/dht11 -- -j22 -l22
+[0.065s] [ 33%] Built target humid_sub
+[0.066s] [ 66%] Built target temp_sub
+[0.066s] [ 83%] [32mBuilding CXX object CMakeFiles/dht_pub.dir/src/dht_pub.cpp.o[0m
+[1.270s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.270s]                  from [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:11[m[K:
+[1.270s] [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:[m[K In member function ‘[01m[Kvoid DhtSerialPublisher::[01;32m[Kpoll_serial[m[K()[m[K’:
+[1.270s] [01m[K/home/elton/temp_humidity_ws/src/dht11/src/dht_pub.cpp:119:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[1.271s]   119 |     RCLCPP_DEBUG(get_logger(), "read %zd bytes", [01;31m[Kn[m[K);
+[1.271s]       |                                                  [01;31m[K^[m[K
+[1.863s] gmake[2]: *** [CMakeFiles/dht_pub.dir/build.make:76: CMakeFiles/dht_pub.dir/src/dht_pub.cpp.o] Error 1
+[1.864s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/dht_pub.dir/all] Error 2
+[1.864s] gmake: *** [Makefile:146: all] Error 2
+[1.868s] Invoked command in '/home/elton/temp_humidity_ws/build/dht11' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/elton/temp_humidity_ws/build/dht11 -- -j22 -l22

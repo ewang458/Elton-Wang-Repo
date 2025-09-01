@@ -1,0 +1,3 @@
+[ 33%] Built target humid_sub
+[ 66%] Built target temp_sub
+[ 83%] [32mBuilding CXX object CMakeFiles/dht_pub.dir/src/dht_pub.cpp.o[0m

@@ -1,0 +1,4 @@
+source;share/dht11/local_setup.bash
+source;share/dht11/local_setup.dsv
+source;share/dht11/local_setup.sh
+source;share/dht11/local_setup.zsh
